@@ -1,0 +1,10 @@
+package com.kelompok1;
+
+public class BasePizza implements Pizza{
+	public String bakePizza() {
+        return "Basic Pizza";
+    }
+    public float getCost(){
+        return 10;
+    }
+}
